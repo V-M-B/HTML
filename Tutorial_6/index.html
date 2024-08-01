@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="post">
+        <h1>Form to apply for Cohort Course</h1>
+        <div>
+        <label for="username">Enter ur User-Name</label>
+        <input type="text" id="username" placeholder="Enter your name" required>
+</div>     
+
+<div>
+   <input type="radio" name="gender" id="male">
+   <label for="male">Male</label>
+   
+   <input type="radio" name="gender" id="Female">
+   <label for="Female">Female</label>
+</div>  
+
+<div>
+   <input type="checkbox" name="newsletter" id="newsletter">
+   <label for="newsletter">newsletter</label>
+</div>  
+
+<div>
+    <label for="q&a">Enter your Questions</label>
+    <textarea name="q&a" id="q&a" cols="30" rows="10"></textarea>
+    <br>
+    <label for="comments">Enter your comment</label>
+    <textarea name="comments" id="comments"></textarea>
+</div>
+
+
+<div>
+    <label for="fruit">Select the fruit</label>
+    <select name="fruits" id="fruits">
+        <option value="apple">apple</option>
+        <option value="mango">mango</option>
+        <option value="jackfruit">jackfruit</option>
+    </select>
+ </div>  
+
+ <div>
+    <label for="password">Enter password</label>
+    <input type="password" name="password" placeholder="Enter your password" autofocus>
+    <button type="button">submit</button>
+ </div>
+
+
+
+
+</form>
+</body>
+</html>
