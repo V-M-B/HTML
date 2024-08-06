@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 p{
     background-color: aquamarine;
 }
@@ -9,4 +10,17 @@ div{
 }
 span{
     background-color: chartreuse;
+=======
+p{
+    background-color: aquamarine;
+}
+a{
+    background-color: brown;
+}
+div{
+    background-color: blue;
+}
+span{
+    background-color: chartreuse;
+>>>>>>> origin/HEAD
 }
